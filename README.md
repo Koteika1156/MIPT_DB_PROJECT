@@ -1,5 +1,13 @@
 # Структура базы данных
 
+## Концептуальная модель:
+![alt text](https://github.com/Koteika1156/MIPT_DB_PROJECT/blob/dev/img/conceptual_model.png?raw=true)
+
+## Физическая модель:
+![alt text](https://github.com/Koteika1156/MIPT_DB_PROJECT/blob/dev/img/physical_model.png?raw=true)
+
+
+
 ## Таблица: Работники
 | Field | Type | Description | Constraints |
 | --- | --- | --- | --- |
