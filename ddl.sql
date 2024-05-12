@@ -56,7 +56,7 @@ CREATE TABLE Deliveries (
     DeliveryID BIGSERIAL NOT NULL PRIMARY KEY,
     RecipientID BIGINT NOT NULL CHECK(RecipientID >= 0),
     PartID BIGINT NOT NULL CHECK(PartID >= 0),
-    Quantity INT NOT NULL CHECK(Quantity >= 0),
+    Quantity BIGINT NOT NULL CHECK(Quantity >= 0),
     Date DATE NOT NULL
 );
 
